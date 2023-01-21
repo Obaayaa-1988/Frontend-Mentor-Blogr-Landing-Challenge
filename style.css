@@ -7,3 +7,80 @@
 body{
  /* font-family: monospace ; */
 }
+
+/* start main showcase styling*/
+.blog-showcase{
+    background-color: hsl(356, 100%, 66%);
+    min-height: 80vh;
+    width: 100%;
+    border-bottom-left-radius: 4rem;
+}
+
+/* end main showcase styling*/
+
+/* start main showcase logo styling*/
+
+.blog-logo{
+    color: white;
+    font-size: 1.5rem;
+    
+        
+}
+/* end main showcase logo styling*/
+
+
+/* start main showcase nav link styling */
+.blog-container{
+    width: 80%;
+    margin: auto;
+
+}
+
+.blog-inner-flex{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+#blog-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#blog-nav ul li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    color: white;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* end main showcase nav link styling*/
+
+/* start main showcase register buttons styling*/
+.register-blog{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* end main showcase register buttons styling*/
+
+/* start main showcase text styling*/
+.blog-showcase-text{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+
+/* end main showcase text styling*/
