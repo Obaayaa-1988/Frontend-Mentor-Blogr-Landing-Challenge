@@ -1,23 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Assistant:wght@200&family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Kalam:wght@300&family=Oswald:wght@200&family=Poppins&family=Tajawal:wght@200;300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Assistant:wght@200&family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Kalam:wght@300&family=Oswald:wght@200&family=Poppins&family=Tajawal:wght@200;300;500;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    /* font-family: monospace ; */
-    font-family: 'Tajawal';
-    background-color: rgb(251, 247, 247);
+  /* font-family: monospace ; */
+  font-family: "Tajawal";
+  background-color: rgb(251, 247, 247);
 }
 
 /* start main showcase styling*/
 .blog-showcase {
-    background-color: hsl(356, 100%, 66%);
-    min-height: 80vh;
-    width: 100%;
-    border-bottom-left-radius: 4rem;
+  background-color: hsl(356, 100%, 66%);
+  min-height: 80vh;
+  width: 100%;
+  border-bottom-left-radius: 4rem;
 }
 
 /* end main showcase styling*/
@@ -25,252 +25,280 @@ body {
 /* start main showcase logo styling*/
 
 .blog-logo {
-    color: hsl(0, 0%, 100%);;
-    font-size: 2rem;
-    margin-right: 3rem;
-
-
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  margin-right: 3rem;
 }
 
 /* end main showcase logo styling*/
 
-
 /* start main showcase nav link styling */
 .blog-container {
-    width: 80%;
-    margin: auto;
-
+  width: 80%;
+  margin: auto;
 }
 
 .blog-inner-flex {
-    display: flex;
-    justify-content: space-around;
-
+  display: flex;
+  justify-content: space-around;
 }
-
-
 
 #blog-nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.2rem;
 }
 
-
 #blog-nav ul li {
-    list-style: none;
-    display: inline-flex;
-    justify-content: space-between;
-    padding-right: 1.5rem;
-    padding-top: 1rem;
-
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+  padding-top: 1.4rem;
 }
 
 nav a {
-    font-size: 12px;
-    text-decoration: none;
-    color: rgb(244, 231, 231);
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(244, 231, 231);
 }
 
 /* end main showcase nav link styling*/
 
 /* start main showcase register buttons styling*/
 .register-blog {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .register-blog h5 {
-    color: rgb(244, 231, 231);
-    font-size: 1rem;
-    padding-top: 0.8rem;
-    margin-right: 2rem;
-
+  color: rgb(244, 231, 231);
+  font-size: 1rem;
+  padding-top: 0.8rem;
+  margin-right: 2rem;
 }
 
-.register-blog .blog-btn {
-    padding: 0.7rem 1.5rem;
-    border: none;
-    background: white;
-    color: hsl(356, 100%, 66%);
-    font-weight: bold;
-    font-size: 1rem;
-    border-radius: 50px;
-    cursor: pointer;
-
+.register-blog .blog-btn1 {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  background: white;
+  color: hsl(356, 100%, 66%);
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 0.5rem;
 }
 
 /* end main showcase register buttons styling*/
 
 /* start main showcase text styling*/
 .blog-showcase-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 8rem;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
 }
 
 .blog-showcase-para h1 {
-    font-size: 4rem;
-    color: hsl(0, 0%, 100%);
+  font-size: 4rem;
+  color: hsl(0, 0%, 100%);
 }
 
 .blog-showcase-para p {
-    font-size: 16px;
-    color: rgb(230, 217, 217);
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 3rem;
-
+  font-size: 16px;
+  color: rgb(230, 217, 217);
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .blog-btn1 {
-    padding: 0.7rem 1.5rem;
-    border: none;
-    background: hsl(0, 0%, 100%);;
-    color: hsl(356, 100%, 66%);
-    font-weight: bold;
-    font-size: 1rem;
-    border-radius: 50px;
-    cursor: pointer;
-
+  padding: 0.7rem 1.5rem;
+  border: none;
+  background: hsl(0, 0%, 100%);
+  color: hsl(356, 100%, 66%);
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 .blog-btn2 {
-    padding: 0.7rem 1.5rem;
-    background: transparent;
-    border: 1px solid hsl(0, 0%, 100%);;
-    color: hsl(0, 0%, 100%);
-    font-size: 1rem;
-    border-radius: 50px;
-    cursor: pointer;
-
+  padding: 0.7rem 1.5rem;
+  background: transparent;
+  border: 1px solid hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 /* end main showcase text styling*/
 
 
+
 /* start section one styling *****/
 #blog-section-one {
-    min-height: 100vh;
-    padding-top: 6rem;
+  min-height: 100vh;
+  padding-top: 6rem;
 }
 
 #blog-section-one h1 {
-    color: hsl(208, 49%, 24%);
-    text-align: center;
-    font-size: 2rem;
-    padding-bottom: 6rem;
-    
-    font-weight: bold;
+  color: hsl(208, 49%, 24%);
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 6rem;
+  font-weight: bold;
 }
 
-.blog-section-design{
-    /* margin-top: 5rem; */
-    display: flex;
-    justify-content: space-between;
+.blog-section-design {
+  display: flex;
+  justify-content: space-between;
+  
 }
 
-.blog-section-intro{
-    padding-left: 7rem;
+.blog-section-design > div{
+    width: 50%;
 }
 
-.intro-text h3{
-    font-size: 25px;
-    margin-bottom: 1rem;
-    color: hsl(208, 49%, 24%);
-    font-weight: bold;
-    
+.blog-section-intro {
+  padding-left: 7rem;
 }
 
-.intro-para{
-    font-size: 16px;
-    margin-bottom: 5rem;
+.intro-text h3 {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  color: hsl(208, 49%, 24%);
+  font-weight: bold;
 }
 
-.intro-text2 h3{
-    
-    color: hsl(208, 49%, 24%);
+.intro-para {
+  font-size: 16px;
+  margin-bottom: 5rem;
 }
 
-.blog-section-image1 img{
-        width: 48rem;
-        height: 37rem;
-        object-fit: cover;
-        object-position: 50% 50%;
-   
+.intro-text2 h3 {
+  color: hsl(208, 49%, 24%);
+}
+
+.blog-section-image1 {
+  position: relative;
+}
+
+.blog-section-image1 img {
+  width: 130%;
+  /* height: 37rem; */
+  position: absolute;
+  right: -15%;
 }
 /** end section one styling *****/
 
 
+
 /*start section two blog mobile styling*/
-.blog-mobile{
-    background-color: hsl(237, 17%, 21%);
-    min-height: 50vh;
-    border-top-right-radius: 4rem;
-    border-bottom-left-radius: 4rem;
-    position: relative;
-    
+.blog-mobile {
+  background-color: hsl(237, 17%, 21%);
+  min-height: 50vh;
+  border-top-right-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+  position: relative;
+  margin-top: 35rem;
 }
 
-.blog-inner-mobile{
-    display: flex;
-    justify-content: space-around;
-    padding-left: 5rem;
-
+.blog-inner-mobile {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5rem;
 }
 
-.blog-mobile-image{
-    position: relative;
+.blog-mobile-image {
+  position: relative;
 }
 
-.blog-mobile img{
-    object-fit: cover;
-    object-position: 50% 50%;
-    position: absolute;
-    top: -60%;
+.blog-mobile img {
+  object-fit: cover;
+  object-position: 50% 50%;
+  position: absolute;
+  top: -75%;
 }
 
-.blog-mobile-text h2{
-    color: hsl(0, 0%, 100%);
-    font-size: 2rem;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
+.blog-mobile-text h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
-.blog-mobile-text p{
-    width: 70%;
-    color: rgb(245, 238, 238);
-
+.blog-mobile-text p {
+  width: 70%;
+  color: rgb(245, 238, 238);
 }
 /*end section two blog mobile styling*/
 /*end section three blog laptop styling*/
 
-.blog-laptop-design{
-    margin-top: 12rem;
-    display: flex;
-    justify-content: space-between;
+.blog-laptop-design {
+  margin-top: 12rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.blog-laptop-intro{
-    padding-right: 7rem;
+.blog-laptop-intro {
+  padding-right: 7rem;
 }
 
-.laptop-intro h3{
-    font-size: 25px;
-    margin-bottom: 1rem;
-    color: hsl(208, 49%, 24%);
-    font-weight: bold;
-
+.laptop-intro h3 {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  color: hsl(208, 49%, 24%);
+  font-weight: bold;
 }
 
-.laptop-para{
-    font-size: 16px;
-    margin-bottom: 5rem;
-
+.laptop-para {
+  font-size: 16px;
+  margin-bottom: 5rem;
 }
-
 
 /*end section two blog laptop styling*/
+/*start blog footer styling***********/
+.blog-footer {
+  background-color: hsl(240, 10%, 16%);
+  min-height: 40vh;
+  border-top-right-radius: 4rem;
+  margin-top: 10rem;
+}
+
+.blog-footer-container {
+  width: 70%;
+  margin: auto;
+}
+
+.blog-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.blog-footer-item li {
+  margin-bottom: 0.5rem;
+}
+
+.blog-footer-inner h4 {
+  color: rgb(161, 158, 158);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.blog-footer-item ul li {
+  list-style: none;
+  color: rgb(161, 158, 158);
+  margin-left: 1rem;
+}
+
+.blog-footer-inner a {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(244, 231, 231);
+}
+
+/*******end blog footer styling*******/
