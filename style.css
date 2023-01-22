@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Assistant:wght@200&family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Kalam:wght@300&family=Oswald:wght@200&family=Poppins&family=Tajawal:wght@200;300;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
- /* font-family: monospace ; */
+body {
+    /* font-family: monospace ; */
+    font-family: 'Tajawal';
+    background-color: rgb(251, 247, 247);
 }
 
 /* start main showcase styling*/
-.blog-showcase{
+.blog-showcase {
     background-color: hsl(356, 100%, 66%);
     min-height: 80vh;
     width: 100%;
@@ -20,24 +24,25 @@ body{
 
 /* start main showcase logo styling*/
 
-.blog-logo{
-    color: white;
+.blog-logo {
+    color: hsl(0, 0%, 100%);;
     font-size: 2rem;
     margin-right: 3rem;
-    
-        
+
+
 }
+
 /* end main showcase logo styling*/
 
 
 /* start main showcase nav link styling */
-.blog-container{
+.blog-container {
     width: 80%;
     margin: auto;
 
 }
 
-.blog-inner-flex{
+.blog-inner-flex {
     display: flex;
     justify-content: space-around;
 
@@ -45,7 +50,7 @@ body{
 
 
 
-#blog-nav{
+#blog-nav {
     display: flex;
     justify-content: space-between;
 }
@@ -57,7 +62,7 @@ body{
     justify-content: space-between;
     padding-right: 1.5rem;
     padding-top: 1rem;
-    
+
 }
 
 nav a {
@@ -69,13 +74,13 @@ nav a {
 /* end main showcase nav link styling*/
 
 /* start main showcase register buttons styling*/
-.register-blog{
+.register-blog {
     display: flex;
     justify-content: space-between;
 
 }
 
-.register-blog h5{
+.register-blog h5 {
     color: rgb(244, 231, 231);
     font-size: 1rem;
     padding-top: 0.8rem;
@@ -83,75 +88,120 @@ nav a {
 
 }
 
-.register-blog .blog-btn{
-        padding: 0.7rem 1.5rem;
-        border: none;
-        background: white;
-        color: hsl(356, 100%, 66%);
-        font-weight: bold;
-        font-size: 1rem;
-        border-radius: 50px;
-        cursor: pointer;
+.register-blog .blog-btn {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background: white;
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
 
 }
+
 /* end main showcase register buttons styling*/
 
 /* start main showcase text styling*/
-.blog-showcase-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 8rem;
-     
+.blog-showcase-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+
 }
 
-.blog-showcase-para h1{
+.blog-showcase-para h1 {
     font-size: 4rem;
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
 
-.blog-showcase-para p{
-    font-size: 1.3rem;
+.blog-showcase-para p {
+    font-size: 16px;
     color: rgb(230, 217, 217);
     text-align: center;
-    margin-top: 1.5rem ;
+    margin-top: 1.5rem;
     margin-bottom: 3rem;
 
 }
 
-.blog-btn1{
-        padding: 0.7rem 1.5rem;
-        border: none;
-        background: white;
-        color: hsl(356, 100%, 66%);
-        font-weight: bold;
-        font-size: 1rem;
-        border-radius: 50px;  
-        cursor: pointer;
+.blog-btn1 {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background: hsl(0, 0%, 100%);;
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
 
 }
 
-.blog-btn2{
-        padding: 0.7rem 1.5rem;
-        background: transparent;
-        border: 1px solid white;
-        color: white;
-        font-size: 1rem;
-        border-radius: 50px;
-        cursor: pointer;
+.blog-btn2 {
+    padding: 0.7rem 1.5rem;
+    background: transparent;
+    border: 1px solid hsl(0, 0%, 100%);;
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
 
 }
+
 /* end main showcase text styling*/
 
 
 /* start section one styling *****/
-#blog-section-one{
-    background-color: hsl(237, 17%, 21%);
+#blog-section-one {
     min-height: 100vh;
+    padding-top: 6rem;
+}
+
+#blog-section-one h1 {
+    color: hsl(208, 49%, 24%);
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 6rem;
     
+    font-weight: bold;
+}
+
+.blog-section-design{
+    /* margin-top: 5rem; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-section-intro{
+    padding-left: 7rem;
+}
+
+.intro-text h3{
+    font-size: 25px;
+    margin-bottom: 1rem;
+    color: hsl(208, 49%, 24%);
+    font-weight: bold;
+    
+}
+
+.intro-para{
+    font-size: 16px;
+    margin-bottom: 5rem;
+}
+
+.intro-text2 h3{
+    
+    color: hsl(208, 49%, 24%);
+}
+
+.blog-section-image1 img{
+        width: 48rem;
+        height: 37rem;
+        object-fit: cover;
+        object-position: 50% 50%;
+   
 }
 
 
 /** end section one styling *****/
-
