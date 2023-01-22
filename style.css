@@ -247,4 +247,30 @@ nav a {
 }
 /*end section two blog mobile styling*/
 /*end section three blog laptop styling*/
+
+.blog-laptop-design{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-laptop-intro{
+    padding-right: 7rem;
+}
+
+.laptop-intro h3{
+    font-size: 25px;
+    margin-bottom: 1rem;
+    color: hsl(208, 49%, 24%);
+    font-weight: bold;
+
+}
+
+.laptop-para{
+    font-size: 16px;
+    margin-bottom: 5rem;
+
+}
+
+
 /*end section two blog laptop styling*/
