@@ -202,6 +202,49 @@ nav a {
         object-position: 50% 50%;
    
 }
-
-
 /** end section one styling *****/
+
+
+/*start section two blog mobile styling*/
+.blog-mobile{
+    background-color: hsl(237, 17%, 21%);
+    min-height: 50vh;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    position: relative;
+    
+}
+
+.blog-inner-mobile{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5rem;
+
+}
+
+.blog-mobile-image{
+    position: relative;
+}
+
+.blog-mobile img{
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    top: -60%;
+}
+
+.blog-mobile-text h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.blog-mobile-text p{
+    width: 70%;
+    color: rgb(245, 238, 238);
+
+}
+/*end section two blog mobile styling*/
+/*end section three blog laptop styling*/
+/*end section two blog laptop styling*/
