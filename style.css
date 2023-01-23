@@ -6,19 +6,48 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 16px;
+}
+
 body {
-  /* font-family: monospace ; */
-  font-family: "Tajawal";
+  font-family: "Overpass";
   background-color: rgb(251, 247, 247);
 }
 
 /* start main showcase styling*/
 .blog-showcase {
-  background-color: hsl(356, 100%, 66%);
+  background: linear-gradient( to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   min-height: 80vh;
   width: 100%;
   border-bottom-left-radius: 4rem;
+  position: relative;
 }
+
+.blog-showcase--content{
+  position: relative;
+  z-index: 2;
+}
+
+.blog-showcase::after{
+  content: "";
+  background: url(/images/bg-pattern-intro-desktop.svg);
+  background-size: 250%;
+  background-repeat: no-repeat;
+  background-position-y: 55% ;
+  background-position-x: 28% ;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+
+
 
 /* end main showcase styling*/
 
@@ -98,20 +127,21 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 8rem;
+  padding-top: 7rem;
 }
 
 .blog-showcase-para h1 {
-  font-size: 4rem;
+  font-size: 3.7rem;
   color: hsl(0, 0%, 100%);
 }
 
 .blog-showcase-para p {
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(230, 217, 217);
   text-align: center;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  word-spacing: 7px;
 }
 
 .blog-btn1 {
