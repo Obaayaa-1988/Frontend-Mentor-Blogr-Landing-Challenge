@@ -34,8 +34,8 @@ body {
   background: url(/images/bg-pattern-intro-desktop.svg);
   background-size: 250%;
   background-repeat: no-repeat;
-  background-position-y: 55% ;
-  background-position-x: 28% ;
+  background-position-y: 50% ;
+  background-position-x: 26% ;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -246,7 +246,7 @@ nav a {
   min-height: 50vh;
   border-top-right-radius: 4rem;
   border-bottom-left-radius: 4rem;
-  position: relative;
+  /* position: relative; */
   margin-top: 35rem;
 }
 
@@ -256,15 +256,15 @@ nav a {
   padding-left: 5rem;
 }
 
-.blog-mobile-image {
+.blog-mobile-image1 {
   position: relative;
 }
 
 .blog-mobile img {
-  object-fit: cover;
-  object-position: 50% 50%;
-  position: absolute;
-  top: -75%;
+  /* object-fit: cover;
+  object-position: 50% 50%; */
+  position: relative;
+   top: -5; 
 }
 
 .blog-mobile-text h2 {
