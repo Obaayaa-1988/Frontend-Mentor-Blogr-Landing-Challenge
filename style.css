@@ -187,9 +187,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   position: relative;
-
-  
-  
+ 
 }
 
 .blog-section-intro .intro-text{
@@ -225,7 +223,7 @@ nav a {
 }
 
 .blog-section-image1 img {
-  width: 130%;
+  /* width: 130%; */
   /* height: 37rem; */
    position: absolute;
   /* right: 5%; */
@@ -243,17 +241,37 @@ nav a {
 /*start section two blog mobile styling*/
 .blog-mobile {
   background: linear-gradient( to right,  hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-  min-height: 50vh;
+  min-height: 60vh;
   border-top-right-radius: 4rem;
   border-bottom-left-radius: 4rem;
-  /* position: relative; */
+  position: relative;
   margin-top: 35rem;
 }
+
+.blog-mobile::after{
+  content: "";
+  background: url(/images/bg-pattern-circles.svg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position-y: 80% ;
+  background-position-x: -45% ;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
 
 .blog-inner-mobile {
   display: flex;
   justify-content: space-around;
   padding-left: 5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .blog-mobile-image {
@@ -263,7 +281,7 @@ nav a {
 
 .blog-mobile img {
   position: absolute;
-   top: -35%; 
+   top: -45%; 
 }
 
 .blog-mobile-text{
