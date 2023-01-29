@@ -179,61 +179,18 @@ nav a {
   color: hsl(208, 49%, 24%);
   text-align: center;
   font-size: 2rem;
-  padding-bottom: 6rem;
   font-weight: bold;
 }
 
 .blog-section-intro {
   display: flex;
   justify-content: space-between;
-  position: relative;
  
 }
 
-.blog-section-intro .intro-text{
-    width: 45%;
-}
-
-/* .blog-section-intro {
-  padding-left: 7rem;
-} */
-
-.intro-text h3 {
-  font-size: 25px;
-  margin-bottom: 1rem;
-  color: hsl(208, 49%, 24%);
-  font-weight: bold;
-}
-
-.intro-para {
-  font-size: 16px;
-  margin-bottom: 5rem;
-}
-
-.intro-text2 h3 {
-  color: hsl(208, 49%, 24%);
-}
-
- .blog-section-image1 {
-   width: 55%;
-  position: relative;
-  /* right: -5%; */
 
 
-}
 
-.blog-section-image1 img {
-  /* width: 130%; */
-  /* height: 37rem; */
-   position: absolute;
-  /* right: 5%; */
-} 
-/* .blog-section-image1 img {
-  width: 130%;
-  height: 37rem;
-   position: relative;
-  right: 5%;
-}  */
 /** end section one styling ****
 
 
@@ -304,15 +261,32 @@ nav a {
 /*end section two blog mobile styling*/
 
 
-/*end section three blog laptop styling*/
+/*start section three blog laptop styling*/
 
 .blog-laptop-design {
-  margin-top: 12rem;
+  padding-top: 20rem;
+  padding-bottom: 10rem;
   display: flex;
   justify-content: space-between;
+  /* background-color: white; */
+
+}
+
+.blog-laptop-image{
+  width: 50%;
+  position: relative; 
+  
+}
+.blog-laptop-image img{
+  width: 165%;
+  position: absolute;
+  top: -45%;
+  left: -60%;
 }
 
 .blog-laptop-intro {
+  width: 50%;
+  padding-top: 2rem;
   padding-right: 7rem;
 }
 
@@ -325,6 +299,8 @@ nav a {
 
 .laptop-para {
   font-size: 16px;
+  line-height: 1.5rem;
+  width: 90%;
   margin-bottom: 5rem;
 }
 
@@ -336,7 +312,7 @@ nav a {
   background-color: hsl(240, 10%, 16%);
   min-height: 40vh;
   border-top-right-radius: 4rem;
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
   font-family: 'Ubuntu';
 }
 
