@@ -21,7 +21,7 @@ body {
   background: linear-gradient( to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   min-height: 80vh;
   width: 100%;
-  border-bottom-left-radius: 4rem;
+  border-bottom-left-radius: 5rem;
   position: relative;
 }
 
@@ -35,8 +35,8 @@ body {
   background: url(/images/bg-pattern-intro-desktop.svg);
   background-size: 250%;
   background-repeat: no-repeat;
-  background-position-y: 50% ;
-  background-position-x: 26% ;
+  background-position-y: 51% ;
+  background-position-x: 25% ;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -87,10 +87,18 @@ body {
   padding-top: 1.4rem;
 }
 
+
 nav a {
-  font-size: 12px;
+  font-size: 16px;
   text-decoration: none;
   color: rgb(244, 231, 231);
+}
+
+nav a:hover{
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  
 }
 
 /* end main showcase nav link styling*/
@@ -102,16 +110,16 @@ nav a {
 }
 
 .register-blog h5 {
-  color: rgb(244, 231, 231);
+  color: hsl(0, 0%, 100%);
   font-size: 1rem;
-  padding-top: 0.8rem;
+  padding-top: 1.5rem;
   margin-right: 2rem;
 }
 
 .register-blog .blog-btn1 {
   padding: 0.7rem 1.5rem;
   border: none;
-  background: white;
+  background: hsl(0, 0%, 100%);
   color: hsl(356, 100%, 66%);
   font-weight: bold;
   font-size: 1rem;
@@ -119,6 +127,14 @@ nav a {
   cursor: pointer;
   margin-top: 0.5rem;
 }
+
+.register-blog .blog-btn1:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  opacity: 0.3;
+}
+
+
 
 /* end main showcase register buttons styling*/
 
@@ -156,6 +172,12 @@ nav a {
   cursor: pointer;
 }
 
+.blog-btn1:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  opacity: 0.3;
+}
+
 .blog-btn2 {
   padding: 0.7rem 1.5rem;
   background: transparent;
@@ -164,6 +186,13 @@ nav a {
   font-size: 1rem;
   border-radius: 50px;
   cursor: pointer;
+}
+
+.blog-btn2:hover{
+  background-color: hsl(0, 0%, 100%);;
+  color: hsl(356, 100%, 66%);
+  font-weight: bold;
+
 }
 
 /* end main showcase text styling*/
@@ -180,6 +209,7 @@ nav a {
 #blog-section-one h1 {
   color: hsl(208, 49%, 24%);
   margin-bottom: 8rem;
+  margin-right: 5rem;
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
@@ -220,7 +250,7 @@ nav a {
   width: 150%;
   position: absolute;
   right: -30%;
-  top: -45%;
+  top: -50%;
 
 
 }
@@ -300,8 +330,8 @@ nav a {
 /*start section three blog laptop styling*/
 
 .blog-laptop-design {
-  padding-top: 20rem;
-  padding-bottom: 10rem;
+  padding-top: 18rem;
+  padding-bottom: 13rem;
   display: flex;
   justify-content: space-between;
   /* background-color: white; */
@@ -322,7 +352,7 @@ nav a {
 
 .blog-laptop-intro {
   width: 50%;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   padding-right: 7rem;
 }
 
@@ -382,5 +412,11 @@ nav a {
   text-decoration: none;
   color: hsl(240, 2%, 79%);
 }
+
+.blog-footer-inner a:hover{
+  text-decoration: underline;
+}
+
+
 
 /*******end blog footer styling*******/
