@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 
 html{
@@ -172,11 +173,13 @@ nav a {
 /* start section one styling *****/
 #blog-section-one {
   min-height: 100vh;
-  padding-top: 6rem;
+  padding-top: 9rem;
+  margin-bottom: 14rem;
 }
 
 #blog-section-one h1 {
   color: hsl(208, 49%, 24%);
+  margin-bottom: 8rem;
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
@@ -185,7 +188,41 @@ nav a {
 .blog-section-intro {
   display: flex;
   justify-content: space-between;
- 
+}
+
+.intro-text{
+  width: 45%;
+  margin-left: 7rem;
+}
+
+.intro-text h3{
+  color: hsl(208, 49%, 24%);
+  margin-bottom: 1.5rem;
+}
+
+.intro-text p{
+  width: 80%;
+  line-height: 1.5rem;
+}
+
+.intro-text .intro-para1{
+  margin-top: 5rem;
+}
+
+
+
+.blog-section-image1{
+  width: 50%;
+  position: relative;
+}
+
+.blog-section-image1 img{
+  width: 150%;
+  position: absolute;
+  right: -30%;
+  top: -45%;
+
+
 }
 
 
@@ -202,7 +239,6 @@ nav a {
   border-top-right-radius: 4rem;
   border-bottom-left-radius: 4rem;
   position: relative;
-  margin-top: 35rem;
 }
 
 .blog-mobile::after{
@@ -238,7 +274,7 @@ nav a {
 
 .blog-mobile img {
   position: absolute;
-   top: -45%; 
+   top: -35%; 
 }
 
 .blog-mobile-text{
