@@ -304,12 +304,15 @@ nav a {
 }
 
 /*end section two blog laptop styling*/
+
+
 /*start blog footer styling***********/
 .blog-footer {
   background-color: hsl(240, 10%, 16%);
   min-height: 40vh;
   border-top-right-radius: 4rem;
   margin-top: 10rem;
+  font-family: 'Ubuntu';
 }
 
 .blog-footer-container {
@@ -327,21 +330,20 @@ nav a {
 }
 
 .blog-footer-inner h4 {
-  color: rgb(161, 158, 158);
+  color: hsl(0, 0%, 100%);
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
 .blog-footer-item ul li {
   list-style: none;
-  color: rgb(161, 158, 158);
   margin-left: 1rem;
 }
 
 .blog-footer-inner a {
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
-  color: rgb(244, 231, 231);
+  color: rgb(199, 195, 195);
 }
 
 /*******end blog footer styling*******/
