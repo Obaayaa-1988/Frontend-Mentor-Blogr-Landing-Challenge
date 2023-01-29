@@ -242,7 +242,7 @@ nav a {
 
 /*start section two blog mobile styling*/
 .blog-mobile {
-  background-color: hsl(237, 17%, 21%);
+  background: linear-gradient( to right,  hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   min-height: 50vh;
   border-top-right-radius: 4rem;
   border-bottom-left-radius: 4rem;
@@ -350,7 +350,7 @@ nav a {
 .blog-footer-inner a {
   font-size: 14px;
   text-decoration: none;
-  color: rgb(199, 195, 195);
+  color: hsl(240, 2%, 79%);
 }
 
 /*******end blog footer styling*******/
