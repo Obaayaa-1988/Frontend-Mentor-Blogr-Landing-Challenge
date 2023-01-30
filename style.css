@@ -215,12 +215,7 @@ nav a:hover {
 #blog-section-one {
   min-height: 100vh;
   padding-top: 9rem;
-<<<<<<< HEAD
-  margin-bottom: 14rem;
-  /* overflow: hidden; */
-=======
   margin-bottom: 20rem;
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
 }
 
 #blog-section-one h1 {
