@@ -4,39 +4,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 }
 
-html{
+html {
   font-size: 16px;
 }
 
 body {
   font-family: "Overpass";
   background-color: rgb(251, 247, 247);
+  overflow-x: hidden;
 }
 
 /* start main showcase styling*/
 .blog-showcase {
-  background: linear-gradient( to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
   min-height: 80vh;
   width: 100%;
   border-bottom-left-radius: 5rem;
   position: relative;
 }
 
-.blog-showcase--info{
+.blog-showcase--info {
   position: relative;
   z-index: 2;
 }
 
-.blog-showcase::after{
+.blog-showcase::after {
   content: "";
   background: url(/images/bg-pattern-intro-desktop.svg);
   background-size: 250%;
   background-repeat: no-repeat;
-  background-position-y: 51% ;
-  background-position-x: 25% ;
+  background-position-y: 51%;
+  background-position-x: 25%;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -46,9 +50,6 @@ body {
   width: 100%;
   z-index: 1;
 }
-
-
-
 
 /* end main showcase styling*/
 
@@ -87,18 +88,16 @@ body {
   padding-top: 1.4rem;
 }
 
-
 nav a {
   font-size: 16px;
   text-decoration: none;
   color: rgb(244, 231, 231);
 }
 
-nav a:hover{
+nav a:hover {
   color: white;
   font-weight: bold;
   text-decoration: underline;
-  
 }
 
 /* end main showcase nav link styling*/
@@ -128,13 +127,11 @@ nav a:hover{
   margin-top: 0.5rem;
 }
 
-.register-blog .blog-btn1:hover{
+.register-blog .blog-btn1:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 100%);
   opacity: 0.3;
 }
-
-
 
 /* end main showcase register buttons styling*/
 
@@ -172,10 +169,11 @@ nav a:hover{
   cursor: pointer;
 }
 
-.blog-btn1:hover{
-  background-color: hsl(0, 0%, 100%);
+.blog-btn1:hover {
+  /* background-color: hsl(0, 0%, 100%); */
+  background-color: hsl(355, 100%, 74%);
   color: hsl(0, 0%, 100%);
-  opacity: 0.3;
+  
 }
 
 .blog-btn2 {
@@ -188,28 +186,26 @@ nav a:hover{
   cursor: pointer;
 }
 
-.blog-btn2:hover{
-  background-color: hsl(0, 0%, 100%);;
+.blog-btn2:hover {
+  background-color: hsl(0, 0%, 100%);
   color: hsl(356, 100%, 66%);
   font-weight: bold;
-
 }
 
 /* end main showcase text styling*/
-
-
 
 /* start section one styling *****/
 #blog-section-one {
   min-height: 100vh;
   padding-top: 9rem;
   margin-bottom: 14rem;
+  /* overflow: hidden; */
 }
 
 #blog-section-one h1 {
   color: hsl(208, 49%, 24%);
   margin-bottom: 8rem;
-  margin-right: 5rem;
+  margin-right: 7rem;
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
@@ -220,43 +216,36 @@ nav a:hover{
   justify-content: space-between;
 }
 
-.intro-text{
+.intro-text {
   width: 45%;
   margin-left: 7rem;
 }
 
-.intro-text h3{
+.intro-text h3 {
   color: hsl(208, 49%, 24%);
   margin-bottom: 1.5rem;
 }
 
-.intro-text p{
+.intro-text p {
   width: 80%;
   line-height: 1.5rem;
 }
 
-.intro-text .intro-para1{
+.intro-text .intro-para1 {
   margin-top: 5rem;
 }
 
-
-
-.blog-section-image1{
-  width: 50%;
+.blog-section-image1 {
+  width: 55%;
   position: relative;
 }
 
-.blog-section-image1 img{
+.blog-section-image1 img {
   width: 150%;
   position: absolute;
-  right: -30%;
-  top: -50%;
-
-
+  right: -45%;
+  top: -20%;
 }
-
-
-
 
 /** end section one styling ****
 
@@ -264,20 +253,20 @@ nav a:hover{
 
 /*start section two blog mobile styling*/
 .blog-mobile {
-  background: linear-gradient( to right,  hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background: linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   min-height: 60vh;
   border-top-right-radius: 4rem;
   border-bottom-left-radius: 4rem;
   position: relative;
 }
 
-.blog-mobile::after{
+.blog-mobile::after {
   content: "";
   background: url(/images/bg-pattern-circles.svg);
   background-size: 70%;
   background-repeat: no-repeat;
-  background-position-y: 80% ;
-  background-position-x: -45% ;
+  background-position-y: 80%;
+  background-position-x: -45%;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -287,7 +276,6 @@ nav a:hover{
   width: 100%;
   z-index: 1;
 }
-
 
 .blog-inner-mobile {
   display: flex;
@@ -304,10 +292,10 @@ nav a:hover{
 
 .blog-mobile img {
   position: absolute;
-   top: -35%; 
+  top: -35%;
 }
 
-.blog-mobile-text{
+.blog-mobile-text {
   width: 50%;
 }
 
@@ -322,10 +310,8 @@ nav a:hover{
   width: 80%;
   color: rgb(195, 192, 192);
   line-height: 1.5rem;
-  /* word-spacing: 5px; */
 }
 /*end section two blog mobile styling*/
-
 
 /*start section three blog laptop styling*/
 
@@ -335,15 +321,13 @@ nav a:hover{
   display: flex;
   justify-content: space-between;
   /* background-color: white; */
-
 }
 
-.blog-laptop-image{
+.blog-laptop-image {
   width: 50%;
-  position: relative; 
-  
+  position: relative;
 }
-.blog-laptop-image img{
+.blog-laptop-image img {
   width: 165%;
   position: absolute;
   top: -45%;
@@ -352,7 +336,6 @@ nav a:hover{
 
 .blog-laptop-intro {
   width: 50%;
-  /* padding-top: 2rem; */
   padding-right: 7rem;
 }
 
@@ -372,14 +355,12 @@ nav a:hover{
 
 /*end section two blog laptop styling*/
 
-
 /*start blog footer styling***********/
 .blog-footer {
   background-color: hsl(240, 10%, 16%);
   min-height: 40vh;
   border-top-right-radius: 4rem;
-  /* margin-top: 10rem; */
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
 }
 
 .blog-footer-container {
@@ -413,10 +394,8 @@ nav a:hover{
   color: hsl(240, 2%, 79%);
 }
 
-.blog-footer-inner a:hover{
+.blog-footer-inner a:hover {
   text-decoration: underline;
 }
-
-
 
 /*******end blog footer styling*******/
