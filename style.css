@@ -4,10 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
-=======
   
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
 }
 
 html {
@@ -18,11 +15,8 @@ body {
   font-family: "Overpass";
   background-color: rgb(251, 247, 247);
   overflow-x: hidden;
-<<<<<<< HEAD
-=======
   
 
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
 }
 
 /* start main showcase styling*/
@@ -139,13 +133,8 @@ nav a:hover {
   /* margin-top: 2rem; */
 }
 
-<<<<<<< HEAD
-.register-blog .blog-btn1:hover {
-  background-color: hsl(0, 0%, 100%);
-=======
 .register-blog .blog-btn1:hover{
   background-color: hsl(355, 100%, 74%);
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
   color: hsl(0, 0%, 100%);
   /* opacity: 0.3; */
 }
@@ -259,15 +248,10 @@ nav a:hover {
 .blog-section-image1 img {
   width: 150%;
   position: absolute;
-<<<<<<< HEAD
-  right: -45%;
-  top: -20%;
-=======
   right: -30%;
   top: -57%;
 
 
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
 }
 
 /** end section one styling ****
@@ -276,13 +260,8 @@ nav a:hover {
 
 /*start section two blog mobile styling*/
 .blog-mobile {
-<<<<<<< HEAD
-  background: linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-  min-height: 60vh;
-=======
   background: linear-gradient( to right,  hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   min-height: 50vh;
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
   border-top-right-radius: 4rem;
   border-bottom-left-radius: 4rem;
   position: relative;
@@ -320,11 +299,7 @@ nav a:hover {
 
 .blog-mobile img {
   position: absolute;
-<<<<<<< HEAD
-  top: -35%;
-=======
    top: -25%; 
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
 }
 
 .blog-mobile-text {
@@ -352,24 +327,14 @@ nav a:hover {
   padding-bottom: 15rem;
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
-  /* background-color: white; */
-=======
-
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
 }
 
 .blog-laptop-image {
   width: 50%;
   position: relative;
 }
-<<<<<<< HEAD
-.blog-laptop-image img {
-  width: 165%;
-=======
 .blog-laptop-image img{
   width: 160%;
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
   position: absolute;
   top: -45%;
   left: -60%;
@@ -377,10 +342,7 @@ nav a:hover {
 
 .blog-laptop-intro {
   width: 50%;
-<<<<<<< HEAD
-=======
   padding-top: 7rem;
->>>>>>> f8b577ab473f485f88d94f49f58b7487c5bb31ee
   padding-right: 7rem;
 }
 
