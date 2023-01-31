@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 html {
@@ -15,8 +14,6 @@ body {
   font-family: "Overpass";
   background-color: rgb(251, 247, 247);
   overflow-x: hidden;
-  
-
 }
 
 /* start main showcase styling*/
@@ -56,7 +53,6 @@ body {
 
 /* end main showcase styling*/
 
-
 /* start main showcase logo styling*/
 
 .blog-logo {
@@ -95,14 +91,13 @@ body {
 nav a {
   font-size: 16px;
   text-decoration: none;
-  color:hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 
 .arrow-image path {
   height: 5rem;
   width: 7rem;
   fill: green;
-  
 }
 
 nav a:hover {
@@ -140,7 +135,7 @@ nav a:hover {
   /* margin-top: 2rem; */
 }
 
-.register-blog .blog-btn1:hover{
+.register-blog .blog-btn1:hover {
   background-color: hsl(355, 100%, 74%);
   color: hsl(0, 0%, 100%);
   /* opacity: 0.3; */
@@ -186,7 +181,6 @@ nav a:hover {
   /* background-color: hsl(0, 0%, 100%); */
   background-color: hsl(355, 100%, 74%);
   color: hsl(0, 0%, 100%);
-  
 }
 
 .blog-btn2 {
@@ -257,8 +251,6 @@ nav a:hover {
   position: absolute;
   right: -30%;
   top: -57%;
-
-
 }
 
 /** end section one styling ****
@@ -267,7 +259,7 @@ nav a:hover {
 
 /*start section two blog mobile styling*/
 .blog-mobile {
-  background: linear-gradient( to right,  hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background: linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   min-height: 50vh;
   border-top-right-radius: 4rem;
   border-bottom-left-radius: 4rem;
@@ -306,7 +298,7 @@ nav a:hover {
 
 .blog-mobile img {
   position: absolute;
-   top: -25%; 
+  top: -25%;
 }
 
 .blog-mobile-text {
@@ -340,7 +332,7 @@ nav a:hover {
   width: 50%;
   position: relative;
 }
-.blog-laptop-image img{
+.blog-laptop-image img {
   width: 160%;
   position: absolute;
   top: -45%;
