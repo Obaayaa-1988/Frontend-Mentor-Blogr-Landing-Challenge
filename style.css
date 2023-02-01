@@ -37,7 +37,7 @@ body {
 .blog-showcase::after {
   content: "";
   background: url(/images/bg-pattern-intro-desktop.svg);
-  background-size: 250%;
+  background-size: 224%;
   background-repeat: no-repeat;
   background-position-y: 51%;
   background-position-x: 25%;
@@ -67,6 +67,7 @@ body {
 .blog-container {
   width: 80%;
   margin: auto;
+  
 }
 
 .blog-inner-flex {
@@ -77,7 +78,7 @@ body {
 #blog-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1.2rem;
+  padding-top: 3rem;
 }
 
 #blog-nav ul li {
@@ -85,7 +86,7 @@ body {
   display: inline-flex;
   justify-content: space-between;
   padding-right: 1.5rem;
-  padding-top: 1.4rem;
+  padding-top: 1rem;
 }
 
 nav a {
@@ -113,13 +114,15 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
+  
 }
 
 .register-blog h5 {
   color: hsl(0, 0%, 100%);
   font-size: 1rem;
-  padding-top: 1rem;
+  padding-top: 0.7rem;
   margin-right: 2rem;
+  margin-left: 5rem;
   cursor: pointer;
 }
 
@@ -149,7 +152,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 8rem;
+  padding-top: 7rem;
 }
 
 .blog-showcase-para h1 {
@@ -158,12 +161,10 @@ nav a:hover {
 }
 
 .blog-showcase-para p {
-  font-size: 16px;
-  color: rgb(230, 217, 217);
+  color: hsl(0, 0%, 100%);
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  word-spacing: 7px;
 }
 
 .blog-btn1 {
@@ -178,7 +179,6 @@ nav a:hover {
 }
 
 .blog-btn1:hover {
-  /* background-color: hsl(0, 0%, 100%); */
   background-color: hsl(355, 100%, 74%);
   color: hsl(0, 0%, 100%);
 }
