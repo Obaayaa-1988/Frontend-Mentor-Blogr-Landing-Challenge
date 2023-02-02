@@ -1,0 +1,70 @@
+/**media queries**/
+
+@media screen and (max-width: 375px) {
+
+    body{
+        /* overflow-x: hidden; */
+    }
+  #blog-nav {
+   display: none;
+   }
+
+   /*sectioon one queries start*/
+   #blog-section-one{
+    /* margin-bottom: 20rem; */
+   }
+
+   #blog-section-one h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+   }
+
+   .blog-section-intro{
+    display: block;
+   }
+
+   .intro-text {
+  width: 100%;
+  margin-left: 7rem;
+}
+
+   .intro-text p {
+  width: 80%;
+ 
+ }
+
+ .blog-section-image1 {
+  width: 80%;
+  margin-top: 5rem;
+  margin-left: 7rem;
+ 
+
+
+ 
+
+}
+
+.blog-section-image1 img {
+
+    
+}
+
+
+
+
+
+   .blog-inner-mobile{
+    display: block;
+   }
+
+   .blog-laptop-design{
+    display: block;
+   }
+
+   .blog-footer-inner{
+    display: block;
+   }
+    
+}
