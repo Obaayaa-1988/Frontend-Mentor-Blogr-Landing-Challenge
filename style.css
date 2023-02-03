@@ -217,7 +217,7 @@ body {
 
 .blog-btn1 {
   text-decoration: none;
-  padding: 0.7rem 1.5rem;
+  padding: 0.7rem 0.8rem;
   border: none;
   background: hsl(0, 0%, 100%);
   color: hsl(356, 100%, 66%);
@@ -376,7 +376,7 @@ body {
 
 .blog-laptop-design {
   padding-top: 20rem;
-  padding-bottom: 13rem;
+  padding-bottom: 10rem;
   display: flex;
   justify-content: space-between;
 }
@@ -394,7 +394,7 @@ body {
 
 .blog-laptop-intro {
   width: 50%;
-  padding-top: 7rem;
+  padding-top: 1rem;
   padding-right: 7rem;
 }
 
