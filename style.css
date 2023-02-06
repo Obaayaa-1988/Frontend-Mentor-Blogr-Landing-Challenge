@@ -85,7 +85,7 @@ body {
   list-style: none;
   display: inline-flex;
   justify-content: space-between;
-  padding-right: 2rem;
+  padding-right: 1.5rem;
   padding-top: 1rem;
 }
 .list{
@@ -431,6 +431,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 5rem;
+  margin-left: -5rem;
 }
 .blog-footer-item li {
   margin-bottom: 0.5rem;
