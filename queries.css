@@ -2,8 +2,9 @@
 
 @media screen and (max-width: 375px) {
   body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
+  
   #blog-nav {
     display: none;
   }
@@ -22,14 +23,14 @@
 
   /*sectioon one queries start*/
   #blog-section-one {
-    /* padding-bottom: 5rem; */
+    padding-bottom: 15rem;
   }
 
   #blog-section-one h1 {
     width: 100%;
     text-align: center;
     margin-bottom: 3rem;
-    /* margin-left: 3rem; */
+  
   }
 
   .blog-section-intro {
@@ -42,7 +43,8 @@
   }
 
   .intro-text p {
-    width: 80%;
+    width: 60%;
+    text-align: center;
   }
 
   .blog-section-image1 {
@@ -51,54 +53,77 @@
     margin-left: 3rem;
   }
 
-  .blog-section-image1 img {
-  }
 
-  /* .blog-mobile-image {
-  width: 10%;
-} */
+/* log mobile media queries start*/
+
+.blog-mobile{
+
+  margin-top: 15rem;
+
+}
+
+.blog-mobile::after {
+  top: 0%;
+  /* left: 10%; */
+  /* right: -50%; */
+  bottom: 0;
+  height: 60%;
+  width: 150%;
+  z-index: 1;
+}
+
 
   .blog-mobile img {
+    width: 24rem;
+  margin-top: -12rem;
+  text-align: center;
+  margin-left: -5rem;
   }
+
+
 
   .blog-inner-mobile {
     display: block;
   }
 
+  .blog-mobile-text{
+    width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+
+ .blog-mobile-text p{
+  width: 70%;
+  text-align: center;
+ } 
+
+
+
+  /* blog laptop media queries start*/
   .blog-laptop-design {
     display: block;
+    margin-bottom: -15rem;
   }
 
   .blog-laptop-image {
     width: 70%;
-    margin-left: 5rem;
+    margin-left: 7rem;
     margin-top: -13rem;
   }
 
-  .blog-laptop-intro {
-    width: 50%;
-    padding-top: 7rem;
-    padding-right: 7rem;
-  }
+ .blog-laptop-intro {
+  width: 100%;
+  padding-top: 25rem;
+  text-align: center;
+  margin-left: 4rem;
+  
+} 
 
-  .laptop-intro h3 {
-    margin-top: 15rem;
-    width: 100%;
-  }
-
-  .laptop-para {
-    font-size: 16px;
-    line-height: 1.5rem;
-    text-align: center;
-    /* width: 100%; */
-  }
+  
 
   /* footer media queries start*/
   .blog-footer {
-
-    padding-bottom: 6rem;
-    
-    
+    padding-bottom: 6rem; 
   }
 
   .blog-footer-inner {
