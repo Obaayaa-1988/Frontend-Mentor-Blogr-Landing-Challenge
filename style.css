@@ -256,7 +256,7 @@ body {
 #blog-section-one {
   min-height: 100vh;
   padding-top: 10rem;
-  margin-bottom: 25rem;
+  margin-bottom: 15rem;
 
 }
 
@@ -376,7 +376,7 @@ body {
 
 .blog-laptop-design {
   padding-top: 20rem;
-  padding-bottom: 15rem;
+  padding-bottom: 13rem;
   display: flex;
   justify-content: space-between;
 }
@@ -394,7 +394,7 @@ body {
 
 .blog-laptop-intro {
   width: 50%;
-  padding-top: 7rem;
+  padding-top: rem;
   padding-right: 7rem;
 }
 
