@@ -143,7 +143,7 @@ body {
   text-decoration: none;
 }
 
-.drop-content.show{
+.show{
   display: block;
 }
 
