@@ -299,7 +299,7 @@ nav a:hover {
 
 .blog-mobile img {
   position: absolute;
-   top: -25%; 
+   top: -40%; 
 }
 
 .blog-mobile-text {
@@ -336,7 +336,7 @@ nav a:hover {
 .blog-laptop-image img{
   width: 160%;
   position: absolute;
-  top: -45%;
+  top: -30%;
   left: -60%;
 }
 
