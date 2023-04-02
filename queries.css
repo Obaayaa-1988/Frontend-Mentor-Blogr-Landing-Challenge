@@ -1,0 +1,182 @@
+/**media queries**/
+
+@media screen and (max-width: 375px) {
+  body {
+    overflow-x: auto;
+  }
+  
+  #blog-nav {
+    display: none;
+  }
+
+  .blog-showcase-para h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .blog-showcase-para p {
+    text-align: center;
+    margin-left: 3rem;
+    width: 70%;
+  }
+
+  /*sectioon one queries start*/
+  #blog-section-one {
+    padding-bottom: 15rem;
+  }
+
+  #blog-section-one h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+  
+  }
+
+  .blog-section-intro {
+    display: block;
+  }
+
+  .intro-text {
+    width: 100%;
+    margin-left: 3rem;
+  }
+
+  .intro-text p {
+    width: 60%;
+    text-align: center;
+  }
+
+  .blog-section-image1 {
+    width: 70%;
+    margin-top: 5rem;
+    margin-left: 3rem;
+  }
+
+
+/* log mobile media queries start*/
+
+.blog-mobile{
+
+  margin-top: 15rem;
+
+}
+
+.blog-mobile::after {
+  top: 0%;
+  /* left: 10%; */
+  /* right: -50%; */
+  bottom: 0;
+  height: 60%;
+  width: 150%;
+  z-index: 1;
+}
+
+
+  .blog-mobile img {
+    width: 24rem;
+  margin-top: -12rem;
+  text-align: center;
+  margin-left: -5rem;
+  }
+
+
+
+  .blog-inner-mobile {
+    display: block;
+  }
+
+  .blog-mobile-text{
+    width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+
+ .blog-mobile-text p{
+  width: 70%;
+  text-align: center;
+ } 
+
+
+
+  /* blog laptop media queries start*/
+  .blog-laptop-design {
+    display: block;
+    margin-bottom: -15rem;
+  }
+
+  .blog-laptop-image {
+    width: 70%;
+    margin-left: 7rem;
+    margin-top: -13rem;
+  }
+
+ .blog-laptop-intro {
+  width: 100%;
+  padding-top: 25rem;
+  text-align: center;
+  margin-left: 4rem;
+  
+} 
+
+  
+
+  /* footer media queries start*/
+  .blog-footer {
+    padding-bottom: 6rem; 
+  }
+
+  .blog-footer-inner {
+    display: block;
+    text-align: center;
+    margin-left: 1rem;
+  }
+
+  .blog-logo {
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .blog-footer-inner h4 {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .blog-footer-item li {
+    margin-bottom: 1rem;
+  }
+
+
+  
+  
+}
+
+/*media queries for my laptop*/
+/* @media screen and (max-width: 1444px) {
+  #blog-section-one {
+  margin-bottom: 25rem;
+
+} */
+
+/* .blog-mobile img {
+
+  top: -20%;
+} */
+
+/* .blog-laptop-design {
+  padding-top: 22rem;
+  padding-bottom: 15rem;
+  
+} */
+
+/* .blog-laptop-intro {
+ 
+  padding-top: 7rem;
+  
+}
+
+
+   */
+/* } */
+
