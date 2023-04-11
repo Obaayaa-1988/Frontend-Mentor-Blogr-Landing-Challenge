@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 html {
@@ -15,8 +14,6 @@ body {
   font-family: "Overpass";
   background-color: rgb(251, 247, 247);
   overflow-x: hidden;
-  
-
 }
 
 /* start main showcase styling*/
@@ -40,7 +37,7 @@ body {
 .blog-showcase::after {
   content: "";
   background: url(/images/bg-pattern-intro-desktop.svg);
-  background-size: 250%;
+  background-size: 224%;
   background-repeat: no-repeat;
   background-position-y: 51%;
   background-position-x: 25%;
@@ -56,7 +53,6 @@ body {
 
 /* end main showcase styling*/
 
-
 /* start main showcase logo styling*/
 
 .blog-logo {
@@ -71,6 +67,7 @@ body {
 .blog-container {
   width: 80%;
   margin: auto;
+  
 }
 
 .blog-inner-flex {
@@ -81,7 +78,7 @@ body {
 #blog-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1.2rem;
+  padding-top: 3rem;
 }
 
 #blog-nav ul li {
@@ -89,20 +86,71 @@ body {
   display: inline-flex;
   justify-content: space-between;
   padding-right: 1.5rem;
-  padding-top: 1.4rem;
+  padding-top: 1rem;
+}
+.list{
+  margin-left: 3rem;
 }
 
-nav a {
+.list a {
   font-size: 16px;
   text-decoration: none;
-  color: rgb(244, 231, 231);
+  color: hsl(0, 0%, 100%);
 }
 
-nav a:hover {
+.list svg{
+  margin-left: 0.5rem;
+}
+
+.list a:hover {
   color: white;
   font-weight: bold;
   text-decoration: underline;
 }
+
+/* styling main showcase nav link dropdown start*/
+.main-linkdrop{
+  position: relative;
+  color:hsl(0, 0%, 100%);
+  cursor: pointer;
+
+
+}
+
+.drop-content{
+  background-color: hsl(0, 0%, 100%);;
+  min-width: 170px;
+  height: 160px;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin-top: 3rem;
+  margin-left: -1rem;
+  padding-left: 1.5rem;
+  padding-top: 2rem; 
+}
+
+.drop-content a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1rem;
+ 
+}
+
+.drop-content a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.drop-content.show{
+  display: block;
+}
+
+
+/* styling main showcase nav link dropdown end*/
+
+
 
 /* end main showcase nav link styling*/
 
@@ -110,17 +158,24 @@ nav a:hover {
 .register-blog {
   display: flex;
   justify-content: space-between;
+  padding-top: 1rem;
+  
 }
 
-.register-blog h5 {
+.register-blog .login{
+  padding-top: 1rem;
+}
+
+.login a{
   color: hsl(0, 0%, 100%);
-  font-size: 1rem;
-  padding-top: 1.5rem;
   margin-right: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.register-blog .blog-btn1 {
-  padding: 0.7rem 1.5rem;
+.register-blog .sign {
+  padding: 0.7rem 0.7rem;
   border: none;
   background: hsl(0, 0%, 100%);
   color: hsl(356, 100%, 66%);
@@ -128,15 +183,13 @@ nav a:hover {
   font-size: 1rem;
   border-radius: 50px;
   cursor: pointer;
-  margin-top: 0.5rem;
   text-decoration: none;
-  /* margin-top: 2rem; */
 }
 
-.register-blog .blog-btn1:hover{
+.register-blog .sign:hover {
   background-color: hsl(355, 100%, 74%);
   color: hsl(0, 0%, 100%);
-  /* opacity: 0.3; */
+
 }
 
 /* end main showcase register buttons styling*/
@@ -147,7 +200,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 
 .blog-showcase-para h1 {
@@ -156,16 +209,15 @@ nav a:hover {
 }
 
 .blog-showcase-para p {
-  font-size: 14px;
-  color: rgb(230, 217, 217);
+  color: hsl(0, 0%, 100%);
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  word-spacing: 7px;
 }
 
 .blog-btn1 {
-  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  padding: 0.7rem 0.8rem;
   border: none;
   background: hsl(0, 0%, 100%);
   color: hsl(356, 100%, 66%);
@@ -176,13 +228,12 @@ nav a:hover {
 }
 
 .blog-btn1:hover {
-  /* background-color: hsl(0, 0%, 100%); */
   background-color: hsl(355, 100%, 74%);
   color: hsl(0, 0%, 100%);
-  
 }
 
 .blog-btn2 {
+  text-decoration: none;
   padding: 0.7rem 1.5rem;
   background: transparent;
   border: 1px solid hsl(0, 0%, 100%);
@@ -190,6 +241,7 @@ nav a:hover {
   font-size: 1rem;
   border-radius: 50px;
   cursor: pointer;
+  margin-left: 1rem;
 }
 
 .blog-btn2:hover {
@@ -203,14 +255,15 @@ nav a:hover {
 /* start section one styling *****/
 #blog-section-one {
   min-height: 100vh;
-  padding-top: 9rem;
-  margin-bottom: 20rem;
+  padding-top: 10rem;
+  margin-bottom: 25rem;
+
 }
 
 #blog-section-one h1 {
   color: hsl(208, 49%, 24%);
-  margin-bottom: 8rem;
-  margin-right: 7rem;
+  margin-bottom: 10rem;
+  margin-right: 12rem;
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
@@ -249,9 +302,7 @@ nav a:hover {
   width: 150%;
   position: absolute;
   right: -30%;
-  top: -57%;
-
-
+  top: -65%;
 }
 
 /** end section one styling ****
@@ -260,11 +311,12 @@ nav a:hover {
 
 /*start section two blog mobile styling*/
 .blog-mobile {
-  background: linear-gradient( to right,  hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-  min-height: 50vh;
+  background: linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  min-height: 55vh;
   border-top-right-radius: 4rem;
   border-bottom-left-radius: 4rem;
   position: relative;
+ 
 }
 
 .blog-mobile::after {
@@ -299,7 +351,7 @@ nav a:hover {
 
 .blog-mobile img {
   position: absolute;
-   top: -40%; 
+  top: -20%;
 }
 
 .blog-mobile-text {
@@ -309,7 +361,7 @@ nav a:hover {
 .blog-mobile-text h2 {
   color: hsl(0, 0%, 100%);
   font-size: 2rem;
-  padding-top: 8rem;
+  padding-top: 9rem;
   padding-bottom: 1.7rem;
 }
 
@@ -323,7 +375,7 @@ nav a:hover {
 /*start section three blog laptop styling*/
 
 .blog-laptop-design {
-  padding-top: 18rem;
+  padding-top: 20rem;
   padding-bottom: 15rem;
   display: flex;
   justify-content: space-between;
@@ -333,11 +385,11 @@ nav a:hover {
   width: 50%;
   position: relative;
 }
-.blog-laptop-image img{
+.blog-laptop-image img {
   width: 160%;
   position: absolute;
-  top: -30%;
-  left: -60%;
+  top: -45%;
+  left: -50%;
 }
 
 .blog-laptop-intro {
@@ -379,6 +431,7 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   padding-top: 5rem;
+  margin-left: -5rem;
 }
 .blog-footer-item li {
   margin-bottom: 0.5rem;
@@ -396,7 +449,7 @@ nav a:hover {
 }
 
 .blog-footer-inner a {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   color: hsl(240, 2%, 79%);
 }
