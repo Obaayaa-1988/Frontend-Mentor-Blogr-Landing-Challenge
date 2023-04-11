@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 375px) {
   body {
-    overflow-x: auto;
+    overflow-x: hidden;
   }
   
   #blog-nav {
@@ -146,37 +146,4 @@
   .blog-footer-item li {
     margin-bottom: 1rem;
   }
-
-
-  
-  
 }
-
-/*media queries for my laptop*/
-/* @media screen and (max-width: 1444px) {
-  #blog-section-one {
-  margin-bottom: 25rem;
-
-} */
-
-/* .blog-mobile img {
-
-  top: -20%;
-} */
-
-/* .blog-laptop-design {
-  padding-top: 22rem;
-  padding-bottom: 15rem;
-  
-} */
-
-/* .blog-laptop-intro {
- 
-  padding-top: 7rem;
-  
-}
-
-
-   */
-/* } */
-
